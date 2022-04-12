@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+   
+    #admin-form{
+    
+    
+    background-color: aqua;color: pink;font-size: 10px;text-align: center;text-transform: uppercase;width: 50%;margin: auto;padding: 50px;}
+    #admin-form h1{
+       font-size: 50px; 
+       text-transform: uppercase;
+    }
+    #admin-form h1::first-letter{
+font-size: 100px;
+
+    }
+    form{
+    
+    }
+    
+    input{
+    
+    width: 100%;padding: 10px;}
+    
+    input[type="submit"]{
+        background-color: pink;
+        transition: 0.5s;
+        width:20% ;
+    }
+
+    input[type="submit"]:hover{
+background-color: blue;
+color:aqua;
+font-size:18px ;
+    }
+    input:focus{
+        background-color: brown;
+        color: aqua;
+    }
+    input::placeholder{
+        
+        color: pink;
+    }
